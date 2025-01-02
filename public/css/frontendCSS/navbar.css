@@ -1,0 +1,61 @@
+body .text-primary-color {
+    color: var(--base-color) !important; /*#FE6901*/
+}
+body .navbar .navbar-nav li a {
+    font-size: 1.125rem; /*18px*/
+}
+body .navbar .navbar-nav li a.active  {
+    color: white !important; /* Change color of the <a> tag to white */
+    background-color: var(--base-color) !important; /* Apply background color to <li> */
+}
+body .navbar .navbar-nav li a:hover.active {
+    color: var(--base-color) !important; /* Change color of the <a> tag to white */
+    background-color: white !important; /* Apply background color to <li> */
+}
+body .navbar .navbar-nav li a:hover {
+    background-color: var(--base-color) !important; /* Change color of the <a> tag to white */
+   color: white !important; /* Apply background color to <li> */
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.bayou-concrete-image{
+    object-fit: cover;
+    max-width: 100px;
+    max-height: 100px;
+}
+.nav-item{
+    width: 7.5rem;
+}
+.bayou-title{
+    font-family: StardosStencil-Regular !important;
+    color: var(--base-color) !important; /*#FE6901*/
+}
+.header-image {
+    position: relative; /* To position the pseudo-element */
+    width: 100%;
+    padding: 20rem 0 15rem 10rem !important;
+    overflow: hidden; /* Ensures the pseudo-element doesn't overflow */
+}
+h1 {
+    color: var(--base-color) !important; /* #FE6901 */
+    font-size: 4rem !important ;
+}
+h2{
+    font-size: 2.625rem;
+}
+.header-call-to-action {
+    max-width: 41%;
+    position: relative; /* Keeps the text above the background */
+    z-index: 1;
+}
+@media (max-width:64rem){
+    .header-call-to-action {
+        max-width: 100%;
+    }
+    .header-image {  
+        padding: 20rem 2rem 15rem 2rem !important;
+    }
+}

@@ -1,0 +1,19 @@
+ .about-header {
+    padding:  7rem 0 7.5rem 0  !important;
+}
+.about-header  .fa-circle-question {
+    font-size: 12rem  !important;
+    color: var(--base-color);
+}
+.about-page p{
+    font-size: 1.20rem !important;
+    line-height: 2;
+}
+.carousel-item{
+    max-width: 100%;
+    max-height: 500px !important;
+    overflow: hidden;
+}
+.carousel-item ,img{
+    object-fit: cover;
+}

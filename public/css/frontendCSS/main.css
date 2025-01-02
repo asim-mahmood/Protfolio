@@ -1,0 +1,44 @@
+@import "fonts.css";
+@import "footer.css";
+@import "variables.css";
+@import "navbar.css";
+@import "services.css";
+@import "about.css";
+@import "portfolio.css";
+@import "about-page/about-page.css";
+@import "services-page/services-page.css";
+@import "contact-page/contact-page.css";
+
+html{
+  display: grid;
+  place-items: center;  /* Centers content both horizontally and vertically */
+  min-height: 100vh;    /* Ensures body takes up the full height of the screen */
+  margin: 0;        
+}
+body{
+    max-width: 2560px !important;
+    font-family: Inter-Regular;
+         
+}
+body a{
+  text-decoration: none;
+}
+h3 {
+  font-size: 2.5rem !important;
+}
+.custom-scrollbar::-webkit-scrollbar {
+    width: 10px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #ffbe90; 
+    border-radius: 4px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color:   var( --base-color); 
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #ffd498; 
+  }
+  

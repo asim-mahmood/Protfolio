@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "StardosStencil-Regular";
+    src: url('/Public/fonts/StardosStencil-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Inter-Regular";
+    src: url('/Public/fonts/Inter_18pt-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

@@ -11,6 +11,11 @@ const Grid = () => {
             key={i}
             title={item.title}
             description={item.description}
+            className={item.className}
+            img={item.img}
+            imgClassName={item.imgClassName}
+            titleClassName={item.titleClassName}
+            spareImg={item.spareImg}
             // remove icon prop
             // remove original classname condition
             
